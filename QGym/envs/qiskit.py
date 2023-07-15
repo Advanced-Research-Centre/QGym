@@ -20,6 +20,8 @@ class QiskitEnv(gym.Env):
         self.size = size
         self.circuit = QuantumCircuit(self.size)
         self.number_gates = 0
+        self.c0 = 1
+        self.c1 = -0.01
 
         # We have 4 different gates
 
@@ -62,7 +64,7 @@ class QiskitEnv(gym.Env):
         self.number_gates += 1
 
         terminated = (self._agent_location[-1] > 0.95)
-        reward = self._agent_location[-1]
+        reward = max(0, self._agent_location[-1]*self.c0 + self.c1*self.circuit.depth())
         observation = self._get_obs()
         info = self._get_info()
 
