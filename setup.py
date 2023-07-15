@@ -11,7 +11,6 @@ Setup for package
 from setuptools import setup
 
 setup(
-    name="onequbit",
+    name="QGym",
     version="0.0.1",
-    install_requires=["gymnasium==0.28.1"],
 )

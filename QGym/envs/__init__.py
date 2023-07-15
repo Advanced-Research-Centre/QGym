@@ -8,9 +8,4 @@
 """
 Init file for the package
 """
-from gymnasium.envs.registration import register
-
-register(
-    id='onequbit/Qiskit-v0',
-    entry_point='onequbit.envs:QiskitEnv'
-)
+from QGym.envs.qiskit import QiskitEnv

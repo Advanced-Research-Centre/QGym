@@ -11,6 +11,6 @@ Init file for the package
 from gymnasium.envs.registration import register
 
 register(
-    id='onequbit/Qiskit-v0',
-    entry_point='onequbit.envs:QiskitEnv'
+    id='QGym/Qiskit-v0',
+    entry_point='QGym.envs:QiskitEnv'
 )
