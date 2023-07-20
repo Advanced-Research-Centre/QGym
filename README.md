@@ -1,6 +1,10 @@
 # QGym
 A gymnasium environment for quantum circuit optimization
 
+### Related Projects:
+* [SciGym](https://github.com/HendrikPN/scigym)
+* [QuantumCircuitGym](https://github.com/MaxKelsen/quantumcircuit_gym)
+
 ### Collaborators
 * Tanmaya Shrivastav
 * Kajetan Knopp
