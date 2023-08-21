@@ -6,7 +6,6 @@ A gymnasium environment for quantum circuit optimization
 * [QuantumCircuitGym](https://github.com/MaxKelsen/quantumcircuit_gym)
 
 ### Collaborators
-* Tanmaya Shrivastav
 * Kajetan Knopp
 * Ishaanvi Agrawal
 * Bao Bach
